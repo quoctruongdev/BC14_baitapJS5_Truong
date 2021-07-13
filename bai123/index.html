@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập JS 5_1</title>
+  </head>
+  <body>
+    <h3>Bài tập số 1</h3>
+    <div
+      id="result"
+      style="display: none; background-color: rgb(46, 186, 221); width: 210px"
+    ></div>
+
+    <div>
+      <h3>Bài tập số 2</h3>
+      <input type="number" id="soX" placeholder="Nhập số X" /> <br />
+      <input type="number" id="soY" placeholder="Nhập số y" />
+    </div>
+    <div
+      id="ketQua"
+      style="background-color: red; text-align: center; width: 150px"
+    ></div>
+    <button onclick="tinhTong()">Kết Quả</button>
+
+    <div>
+      <h3>Bài tập số 3</h3>
+      <input type="number" id="soHang" />
+      <div
+        id="ketQua2"
+        style="
+          display: none;
+          background-color: greenyellow;
+          width: 150px;
+          text-align: center;
+        "
+      ></div>
+    </div>
+    <button onclick="tinhGT()">Tính Giai Thừa</button>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
